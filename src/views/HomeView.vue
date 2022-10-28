@@ -16,7 +16,7 @@
 				>
 					<video
 						class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full max-w-max"
-						src="../assets/stars.mp4"
+						src="../assets/Background.mp4"
 						loop
 						muted
 						autoplay
@@ -32,18 +32,20 @@
 			id="intro"
 			class="bg-black fixed top-0 left-0 w-full h-full flex items-center justify-center"
 		>
-			<div class="intro-text text-amber-50 text-8xl font-serif">
-				<h1 class="bg-black overflow-hidden mb-5">
+			<div
+				class="intro-text sm:text-6xl md:text-7xl lg:text-8xl text-5xl text-amber-50 font-serif"
+			>
+				<h1 class="bg-black overflow-hidden mb-5 pb-1.5">
 					<span class="textanim translate-y-full inline-block"
 						>Creating inovation</span
 					>
 				</h1>
-				<h1 class="bg-black overflow-hidden">
+				<h1 class="bg-black overflow-hidden pb-1.5">
 					<span class="textanim translate-y-full inline-block"
 						>For Everyday</span
 					>
 				</h1>
-				<h1 class="bg-black overflow-hidden">
+				<h1 class="bg-black overflow-hidden pb-1.5">
 					<span class="textanim translate-y-full inline-block">people.</span>
 				</h1>
 			</div>
