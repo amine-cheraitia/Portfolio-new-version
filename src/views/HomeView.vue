@@ -23,9 +23,28 @@
 						autoplay=""
 					></video>
 				</div>
-				<div id="overlay" class="absolute w-full h-full top-0 left-0"></div>
+				<div
+					id="overlay"
+					class="absolute w-full h-full top-0 left-0 bg-back-rgba"
+				></div>
 			</div>
 			<!-- <h1 class="text-cyan-500">This is  san about page</h1> -->
+		</div>
+
+		<div class="absolute top-0 left-0 w-full h-full">
+			<div
+				class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col"
+			>
+				<h1 class="text-7xl font-Montserrat drop-shadow-xl" style="color: #fff">
+					Welcome
+				</h1>
+				<router-link
+					to="about"
+					class="bg-transparent bg-white/5 hover:font-bold backdrop-blur-sm text-white border-4 px-4 py-1 m-4 lg:m-6 inline-block text-center shadow-lg rounded-full cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
+					>Let's Go !</router-link
+				>
+			</div>
+			<!-- 			<h1 class="text-7xl top-1/2 left-" style="color: #55482a">Welcome</h1> -->
 		</div>
 		<div
 			id="intro"
@@ -52,7 +71,9 @@
 		<div
 			id="slider"
 			class="bg-gray-900 fixed top-0 left-0 w-full h-full translate-y-full"
+			style="background: #55482a"
 		></div>
+
 		<!-- </div> -->
 	</div>
 </template>
