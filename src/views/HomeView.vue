@@ -46,6 +46,10 @@
 			</div>
 			<!-- 			<h1 class="text-7xl top-1/2 left-" style="color: #55482a">Welcome</h1> -->
 		</div>
+		<div class="fixed bottom-5 text-white w-full flex justify-between px-7">
+			<span class="text-sm">© AMINE CHERAITIA 2021-2022</span>
+			<a href="https://github.com/amine-cheraitia">Github</a>
+		</div>
 		<div
 			id="intro"
 			class="bg-black fixed top-0 left-0 w-full h-full flex items-center justify-center"
