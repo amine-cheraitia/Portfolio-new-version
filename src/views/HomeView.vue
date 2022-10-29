@@ -15,13 +15,12 @@
 					class="absolute top-0 left-0 min-w-full min-h-full bg-landing bg-cover bg-center"
 				>
 					<video
-						class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full max-w-max"
-						src="../assets/Background.mp4"
-						loop
-						muted
-						autoplay
-						controls
+						class="object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full max-w-max"
+						src="../assets/Black_GoldBackground.mp4"
 						disablePictureInPicture
+						loop=""
+						muted
+						autoplay=""
 					></video>
 				</div>
 				<div id="overlay" class="absolute w-full h-full top-0 left-0"></div>
