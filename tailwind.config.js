@@ -11,6 +11,9 @@ module.exports = {
 				Montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans],
 				Poppins: ['"Poppins"'],
 			},
+			colors: {
+				golden: "#55482a",
+			},
 		},
 	},
 	plugins: [],
