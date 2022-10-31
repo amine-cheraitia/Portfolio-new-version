@@ -179,24 +179,31 @@ export default {
 		return {
 			events: [
 				{
-					eventYear: 2008,
+					eventYear: 2013,
 					eventName: "Licence en Finance et Comptabilité",
 					eventFullDate: "2009 - 2013",
 					eventDescription: "Université de dely ibrahim",
 					tools: ["html", "css", "js"],
 				},
 				{
-					eventYear: 2018,
-					eventName: "licence",
-					eventFullDate: "14/12/2018",
-					eventDescription: "random text",
+					eventYear: 2016,
+					eventName: "Master Européen en management et stratégie d'entreprise",
+					eventFullDate: "2014-2016",
+					eventDescription: "Universal School / EduPro ex ISAG",
 					tools: ["html", "css", "js"],
 				},
 
 				{
-					eventYear: 2022,
-					eventName: "master",
-					eventFullDate: "14/12/2018",
+					eventYear: 2018,
+					eventName: "Responsable des Finance et de la Comptabilité",
+					eventFullDate: "2017-2018",
+					eventDescription: "random text",
+					tools: ["html", "css", "js"],
+				},
+				{
+					eventYear: 2019,
+					eventName: "BTS en informatique option base de donnée",
+					eventFullDate: "2017-20",
 					eventDescription: "random text",
 					tools: ["html", "css", "js"],
 				},
