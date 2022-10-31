@@ -35,12 +35,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="text-amber-600 bg-black z-50 relative mt-96 lg:mt-0">
-			<div
-				data-aos="flip-left"
-				class="card"
-				style="width: 18rem; margin: 200px auto"
-			></div>
+		<div class="text-amber-600 bg-black z-50 relative mt-96 lg:mt-60 h-screen">
+			<!-- 			<div
+				class="bg-white w-1 h-3/4 absolute top-10 left-1/2 rounded-full z-10"
+			></div> -->
+			<TimelineEvent :events="events"></TimelineEvent
+			><!-- 
+			<div class="card" style="width: 18rem; margin: 200px auto"></div>
 			<div
 				data-aos="flip-left"
 				class="card"
@@ -162,19 +163,46 @@
 			>
 				lorem shiot
 			</div>
-			<div
-				data-aos="flip-left"
-				class="card"
-				style="width: 18rem; margin: 200px auto"
-			>
+			<div data-aos="flip-left" class="card" style="width: 18rem">
 				lorem shiot
-			</div>
+			</div> -->
 		</div>
 	</div>
 </template>
 
 <script>
+import TimelineEvent from "@/components/TimelineEvent.vue";
 // @ is an alias to /src
 
-export default {};
+export default {
+	data() {
+		return {
+			events: [
+				{
+					eventYear: 2008,
+					eventName: "Licence en Finance et Comptabilité",
+					eventFullDate: "2009 - 2013",
+					eventDescription: "Université de dely ibrahim",
+					tools: ["html", "css", "js"],
+				},
+				{
+					eventYear: 2018,
+					eventName: "licence",
+					eventFullDate: "14/12/2018",
+					eventDescription: "random text",
+					tools: ["html", "css", "js"],
+				},
+
+				{
+					eventYear: 2022,
+					eventName: "master",
+					eventFullDate: "14/12/2018",
+					eventDescription: "random text",
+					tools: ["html", "css", "js"],
+				},
+			],
+		};
+	},
+	components: { TimelineEvent },
+};
 </script>
