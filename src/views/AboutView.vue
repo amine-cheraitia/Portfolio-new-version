@@ -10,7 +10,7 @@
 				></div>
 				<div
 					class="-z-5 rotate-12 -translate-x-1/2 translate-y-full absolute -bottom-40 lg:-bottom-7 left-1/2 bg-black"
-					style="width: 300%; height: 50%"
+					style="width: 300%; height: 100%"
 				></div>
 				<img
 					class="float-right rounded-full w-96 lg:w-72 z-50 shadow-2xl"
@@ -35,7 +35,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="text-amber-600 bg-black z-50 relative mt-96 lg:mt-60 h-screen">
+		<div
+			class="text-amber-600 bg-black z-50 relative mt-96 pb-96 lg:mt-60 h-full"
+			data-aos="fade-up"
+		>
 			<!-- 			<div
 				class="bg-white w-1 h-3/4 absolute top-10 left-1/2 rounded-full z-10"
 			></div> -->
