@@ -185,30 +185,96 @@ export default {
 					eventYear: 2013,
 					eventName: "Licence en Finance et Comptabilité",
 					eventFullDate: "2009 - 2013",
-					eventDescription: "Université de dely ibrahim",
-					tools: ["html", "css", "js"],
+					eventDescription: [
+						{ desc: "Université de dely ibrahim" },
+
+						{
+							desc: "Formation universitaire de niveau BAC +3 qui permet d'acquirir un socle de connaissance en finance et comptabilité",
+						},
+					],
+					tools: [
+						{
+							name: "HTML",
+							class: "fa-brands fa-html5 text-4xl w-10 text-red-500",
+						},
+						{
+							name: "CSSSX",
+							class: "fa-brands fa-css3-alt text-4xl w-10 text-orange-500 ",
+						},
+						{
+							name: "HTML",
+							class: "fa-brands fa-vuejs text-4xl w-10 text-green-500",
+						},
+						{
+							name: "Dely ibrahim",
+							class: "fa-solid fa-graduation-cap text-4xl w-10 text-gray-500",
+						},
+						{
+							name: "Laravel",
+							class: "fa-brands fa-laravel text-4xl w-10 text-red-500",
+						},
+					],
 				},
 				{
 					eventYear: 2016,
 					eventName: "Master Européen en management et stratégie d'entreprise",
 					eventFullDate: "2014-2016",
-					eventDescription: "Universal School / EduPro ex ISAG",
-					tools: ["html", "css", "js"],
+					eventDescription: [
+						{ desc: "Universal School / EduPro ex ISAG" },
+						{ desc: "Université de dely ibrahim" },
+						{
+							desc: "Formation de niveau BAC +5 qui a pour objectif de  les connaissances et les savoir-faire nécessaires leur permettant de mettre en parallèle la stratégie proposée avec les priorités de l’entreprise afin de combler les écarts éventuels entre la situation actuelle et la situation désirée",
+						},
+					],
+					tools: [
+						{
+							name: "HTML",
+							class: "fa-brands fa-html5",
+						},
+						{ name: "CSSSX", class: "fa-brands fa-css3-alt " },
+						{ name: "HTML", class: "fa-brands fa-html5" },
+					],
 				},
-
 				{
 					eventYear: 2018,
 					eventName: "Responsable des Finance et de la Comptabilité",
 					eventFullDate: "2017-2018",
-					eventDescription: "random text",
-					tools: ["html", "css", "js"],
+					eventDescription: [
+						{ desc: "Sarl TLA Import" },
+						{
+							desc: "Produire et superviser les états financiers ainsi que participer au développement des décisions managériales à travers les outils mis en place",
+						},
+					],
+					tools: [
+						{
+							name: "HTML",
+							class: "fa-brands fa-html5",
+						},
+						{ name: "CSSSX", class: "fa-brands fa-css3-alt " },
+						{ name: "HTML", class: "fa-brands fa-html5" },
+					],
 				},
 				{
 					eventYear: 2019,
 					eventName: "BTS en informatique option base de donnée",
-					eventFullDate: "2017-20",
-					eventDescription: "random text",
-					tools: ["html", "css", "js"],
+					eventFullDate: "2017-2019",
+					eventDescription: [
+						{ desc: "Formation de niveau BAC +3" },
+						{
+							desc: "Mettre en oeuvre des solutions logiciels ainsi que des bases de données ainsi que son administration",
+						},
+					],
+					tools: [
+						{
+							name: "Delphi 7, 10.3",
+							class: "fa-brands fa-html5",
+						},
+						{
+							name: "SQL Server 2008 R2 / 2016",
+							class: "fa-brands fa-css3-alt ",
+						},
+						{ name: "HTML", class: "fa-brands fa-html5" },
+					],
 				},
 			],
 		};
