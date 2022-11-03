@@ -11,7 +11,7 @@
 		></div>
 		<div
 			data-aos="flip-left"
-			class="bg-white w-1 absolute top-0 left-2/3 -translate-x-1/3 sm:left-1/2 sm:-translate-x-1/2 -z-10 h-5/6 transition ease-out"
+			class="bg-white w-1 absolute top-0 left-2/3 -translate-x-1/3 sm:left-1/2 sm:-translate-x-1/2 -z-10 h-[calc(90%_-_40px)] transition ease-out"
 		>
 			<div
 				v-if="index == events.length - 1"
@@ -29,7 +29,7 @@
 				id="text"
 				class="w-2/3 sm:w-1/2 text-right pl-4 mt-20 text-white relative pr-8"
 			>
-				<p class="text-lg md:text-xl lg:text-2xl pl-2 md:pl-4">
+				<p class="text-lg md:text-xl lg:text-2xl pl-2 md:pl-8">
 					{{ event.eventName }}
 				</p>
 				<span class="text-amber-600">{{ event.eventFullDate }}</span>

@@ -181,7 +181,7 @@ export default {
 	data() {
 		return {
 			events: [
-				{
+				/* {
 					eventYear: 2013,
 					eventName: "Licence en Finance et Comptabilité",
 					eventFullDate: "2009 - 2013",
@@ -193,7 +193,7 @@ export default {
 						},
 					],
 					tools: [
-						{
+												{
 							name: "HTML",
 							class: "fa-brands fa-html5 text-4xl w-10 text-red-500",
 						},
@@ -214,66 +214,211 @@ export default {
 							class: "fa-brands fa-laravel text-4xl w-10 text-red-500",
 						},
 					],
-				},
+				},*/
 				{
 					eventYear: 2016,
-					eventName: "Master Européen en management et stratégie d'entreprise",
-					eventFullDate: "2014-2016",
+					eventName: "Master en Management et Stratégie d'Entreprise",
+					eventFullDate: "2014 - 2016",
 					eventDescription: [
 						{ desc: "Universal School / EduPro ex ISAG" },
-						{ desc: "Université de dely ibrahim" },
+
 						{
-							desc: "Formation de niveau BAC +5 qui a pour objectif de  les connaissances et les savoir-faire nécessaires leur permettant de mettre en parallèle la stratégie proposée avec les priorités de l’entreprise afin de combler les écarts éventuels entre la situation actuelle et la situation désirée",
+							desc: "Formation de niveau BAC +5",
 						},
+						/* 						{
+							desc: "Formation de niveau BAC +5 qui a pour objectif d'acquirir et maitriser les connaissances et les savoir-faire nécessaires pour la mise en place de stratégies de groupe ou de DAS",
+						}, */
 					],
-					tools: [
-						{
-							name: "HTML",
-							class: "fa-brands fa-html5",
-						},
-						{ name: "CSSSX", class: "fa-brands fa-css3-alt " },
-						{ name: "HTML", class: "fa-brands fa-html5" },
-					],
+					tools: [],
 				},
 				{
 					eventYear: 2018,
 					eventName: "Responsable des Finance et de la Comptabilité",
-					eventFullDate: "2017-2018",
+					eventFullDate: "2017 - 2018",
 					eventDescription: [
 						{ desc: "Sarl TLA Import" },
 						{
 							desc: "Produire et superviser les états financiers ainsi que participer au développement des décisions managériales à travers les outils mis en place",
 						},
 					],
-					tools: [
-						{
-							name: "HTML",
-							class: "fa-brands fa-html5",
-						},
-						{ name: "CSSSX", class: "fa-brands fa-css3-alt " },
-						{ name: "HTML", class: "fa-brands fa-html5" },
-					],
+					tools: [],
 				},
 				{
 					eventYear: 2019,
 					eventName: "BTS en informatique option base de donnée",
-					eventFullDate: "2017-2019",
+					eventFullDate: "2017 - 2019",
 					eventDescription: [
-						{ desc: "Formation de niveau BAC +3" },
+						{ desc: "INSFP Mohamed Tayeb Boucenna" },
+
 						{
-							desc: "Mettre en oeuvre des solutions logiciels ainsi que des bases de données ainsi que son administration",
+							desc: "Formation de niveau BAC +2",
+						} /* 
+						{
+							desc: "Formation de niveau BAC +2 qui a pour but de mettre en oeuvre des solutions logiciels et des bases de données ainsi que leurs administration",
+						}, */,
+					],
+					tools: [
+						{
+							name: "Delphi 7, 10.2",
+							class: "fa-solid fa-code  text-5xl w-10 text-white",
+						},
+						{
+							name: "SQL Server 2008 R2 / 2016",
+							class: "fa-solid fa-database   text-5xl w-10 text-gray-500",
+						},
+					],
+				},
+				{
+					eventYear: 2022,
+					eventName: "Développeur d'Applications",
+					eventFullDate: "2019-2022",
+					eventDescription: [
+						{ desc: "EURL EASY NETWORK" },
+						{
+							desc: "Développement et amélioration de divers applications pour le compte de l'entreprise",
 						},
 					],
 					tools: [
 						{
-							name: "Delphi 7, 10.3",
-							class: "fa-brands fa-html5",
+							name: "Delphi 10.3",
+							class: "fa-solid fa-code  text-5xl w-10 text-white",
 						},
 						{
-							name: "SQL Server 2008 R2 / 2016",
-							class: "fa-brands fa-css3-alt ",
+							name: "SQL Server  2016",
+							class: "fa-solid fa-database   text-5xl w-10 text-gray-500",
 						},
-						{ name: "HTML", class: "fa-brands fa-html5" },
+					],
+				},
+				{
+					eventYear: 2022,
+					eventName:
+						"Diplôme H2IT : Ingénieur Professionnel en informatique (SI)",
+					eventFullDate: "2020-2022",
+					eventDescription: [
+						{
+							desc: "ETM Ibn Rochd / L'institut d'ingénierie en informatique de Limoge (3il)",
+						},
+						{
+							desc: "Double Diplôme Bachelor Concepteur de systèmes d'information",
+						},
+						{ desc: "Certifié par France Compétences - RNCP Niveau 6" },
+						/* 						{
+							desc: "Mettre en oeuvre des solutions logiciels ainsi que des bases de données ainsi que son administration",
+						}, */
+					],
+					tools: [
+						{
+							name: "HTML",
+							class: "fa-brands fa-html5 text-5xl w-10 text-red-500",
+						},
+						{
+							name: "CSS",
+							class: "fa-brands fa-css3-alt text-5xl w-10 text-orange-500 ",
+						},
+
+						{
+							name: "Javascript",
+							class: "fa-brands fa-js text-5xl w-10 text-yellow-500",
+						},
+
+						{
+							name: "Laravel",
+							class: "fa-brands fa-laravel text-5xl w-10 text-red-500",
+						},
+						{
+							name: "Linux",
+							class: "fa-brands fa-linux text-5xl w-10 text-white",
+						},
+						{
+							name: "Oracle",
+							class: "fa-solid fa-database text-5xl w-10  text-gray-500",
+						},
+						{
+							name: "Wordpress",
+							class: "fa-brands fa-wordpress text-5xl w-10  text-sky-500",
+						},
+					],
+				},
+				{
+					eventYear: 2022,
+					eventName: "Développeur Web Stagiaire",
+					eventFullDate: "juin.2021 - Jan.2022",
+					eventDescription: [
+						{ desc: "Cabinet Meddahi de Commisariat Aux Comptes" },
+						{
+							desc: "Mise en œuvre d'une solution pour facilité et améliorer la gestion du cabinet",
+						},
+					],
+					tools: [
+						{
+							name: "HTML",
+							class: "fa-brands fa-html5 text-5xl w-10 text-red-500",
+						},
+						{
+							name: "CSS",
+							class: "fa-brands fa-css3-alt text-5xl w-10 text-orange-500 ",
+						},
+
+						{
+							name: "Javascript",
+							class: "fa-brands fa-js text-5xl w-10 text-yellow-500",
+						},
+
+						{
+							name: "Laravel",
+							class: "fa-brands fa-laravel text-5xl w-10 text-red-500",
+						},
+						{
+							name: "MariaDB",
+							class: "fa-solid fa-database text-5xl w-10  text-gray-500",
+						},
+					],
+				},
+
+				{
+					eventYear: 2022,
+					eventName: "Développeur Web Freelance",
+					eventFullDate: "2022 - à ce jour",
+					eventDescription: [
+						{
+							desc: "Conception et développement de divers applications web",
+						},
+					],
+					tools: [
+						{
+							name: "HTML",
+							class: "fa-brands fa-html5 text-5xl w-10 text-red-500",
+						},
+						{
+							name: "CSS",
+							class: "fa-brands fa-css3-alt text-5xl w-10 text-orange-500 ",
+						},
+
+						{
+							name: "Javascript",
+							class: "fa-brands fa-js text-5xl w-10 text-yellow-500",
+						},
+
+						{
+							name: "Laravel ",
+							class: "fa-brands fa-laravel text-5xl w-10 text-red-500",
+						},
+						{
+							name: "VueJS",
+							class: "fa-brands fa-vuejs text-5xl w-10 text-green-500",
+						},
+						{
+							name: "Linux",
+							class: "fa-brands fa-linux text-5xl w-10 text-white",
+						},
+						{
+							name: "MySql / Oracle / Sql Server",
+							class: "fa-solid fa-database text-5xl w-10  text-gray-500",
+						},
+						{
+							name: "Wordpress",
+							class: "fa-brands fa-wordpress text-5xl w-10  text-sky-500",
+						},
 					],
 				},
 			],
