@@ -1,5 +1,6 @@
 <template>
-	<div class="font-Montserrat overflow-hidden">
+	<MenuBar></MenuBar>
+	<div class="font-Montserrat overflow-hidden z-0 mt-16 lg:mt-14">
 		<div id="main" class="text-black text-5xl bg-white w-full h-screen">
 			<div
 				class="relative flex flex-col items-center lg:flex-row-reverse pr-14 pl-12 bg-black-700 h-full pt-20 lg:pt-0"
@@ -13,7 +14,7 @@
 					style="width: 300%; height: 100%"
 				></div>
 				<img
-					class="float-right rounded-full w-96 lg:w-72 z-50 shadow-2xl"
+					class="float-right rounded-full w-96 lg:w-72 z-30 shadow-2xl"
 					src="../assets/mypic.jpg"
 					alt=""
 				/>
@@ -36,7 +37,7 @@
 			</div>
 		</div>
 		<div
-			class="text-amber-600 bg-black z-50 relative mt-96 pb-96 lg:mt-60 h-full"
+			class="text-amber-600 bg-black z-30 relative mt-96 pb-96 lg:mt-60 h-full"
 			data-aos="fade-up"
 		>
 			<!-- 			<div
@@ -175,6 +176,7 @@
 
 <script>
 import TimelineEvent from "@/components/TimelineEvent.vue";
+import MenuBar from "@/components/MenuBar";
 // @ is an alias to /src
 
 export default {
@@ -424,6 +426,6 @@ export default {
 			],
 		};
 	},
-	components: { TimelineEvent },
+	components: { TimelineEvent, MenuBar },
 };
 </script>
