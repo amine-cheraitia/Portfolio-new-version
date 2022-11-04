@@ -1,0 +1,72 @@
+<template>
+	<div
+		class="fixed top-0 w-full z-50 bg-black text-white flex justify-between items-center h-28 px-16"
+	>
+		<div class="text-xl md:text-2xl lg:text-3xl font-Montserrat">
+			Amine Ch <span class="text-amber-500 text-xl">.</span>
+		</div>
+		<div class="w-3/4 h-full flex justify-center items-center">
+			<ul
+				class="flex justify-around items-center h-full w-full text-center font-Poppins text-xl md:text-xl lg:text-2xl"
+			>
+				<li
+					class="hover:bg-stone-900 hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
+					:class="{
+						'border-b-4 border-amber-600 bg-gradient-to-l from-black to-stone-900':
+							activeLink('home'),
+					}"
+				>
+					<router-link
+						to="home"
+						class="h-full w-full flex justify-center items-center"
+						>Accueil</router-link
+					>
+				</li>
+				<li
+					class="hover:bg-stone-900 hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
+					:class="{
+						'border-b-4 border-amber-600 bg-gradient-to-l from-black to-stone-900':
+							activeLink('about'),
+					}"
+				>
+					<router-link
+						to="about"
+						class="h-full w-full flex justify-center items-center"
+						>A propos</router-link
+					>
+				</li>
+				<li
+					class="hover:bg-stone-900 hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
+					:class="{
+						'border-b-4 border-amber-600 bg-gradient-to-l from-black to-stone-900':
+							activeLink('projects'),
+					}"
+				>
+					<router-link
+						to="projects"
+						class="h-full w-full flex justify-center items-center"
+						>Projets</router-link
+					>
+				</li>
+			</ul>
+		</div>
+	</div>
+</template>
+
+<script>
+export default {
+	props: {},
+	methods: {
+		activeLink(routeName) {
+			routeName;
+
+			if (this.$route.name === routeName) {
+				return true;
+			}
+			return false;
+		},
+	},
+};
+</script>
+
+<style scoped></style>
