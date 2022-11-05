@@ -10,9 +10,9 @@
 				class="flex justify-around items-center h-full w-full text-center font-Poppins text-xl md:text-xl lg:text-2xl"
 			>
 				<li
-					class="hover:bg-stone-900 hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
+					class="border-b-4 border-b-black hover:bg-gradient-to-r hover:from-black hover:via-stone-900 hover:to-black hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
 					:class="{
-						'border-b-4 border-amber-600 bg-gradient-to-l from-black to-stone-900':
+						'border-b-4 border-b-amber-600 bg-gradient-to-l from-black to-stone-900':
 							activeLink('home'),
 					}"
 				>
@@ -23,9 +23,9 @@
 					>
 				</li>
 				<li
-					class="hover:bg-stone-900 hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
+					class="border-b-4 border-b-black hover:bg-gradient-to-r hover:from-black hover:via-stone-900 hover:to-black hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
 					:class="{
-						'border-b-4 border-amber-600 bg-gradient-to-l from-black to-stone-900':
+						'border-b-4 border-b-amber-600 bg-gradient-to-r from-black via-gray-900 to-black':
 							activeLink('about'),
 					}"
 				>
@@ -36,9 +36,9 @@
 					>
 				</li>
 				<li
-					class="hover:bg-stone-900 hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
+					class="border-b-4 border-b-black hover:bg-gradient-to-r hover:from-black hover:via-stone-900 hover:to-black hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
 					:class="{
-						'border-b-4 border-amber-600 bg-gradient-to-l from-black to-stone-900':
+						'border-b-4 border-b-amber-600 bg-gradient-to-r from-black via-gray-900 to-black':
 							activeLink('projects'),
 					}"
 				>

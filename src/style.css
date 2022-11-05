@@ -25,6 +25,14 @@
 	border-radius: 14px;
 	border: 3px solid var(--primary);
 }
+
+.swiper-button-prev::after {
+	color: var(--secondary);
+}
+
+.swiper-button-next::after {
+	color: var(--secondary);
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
