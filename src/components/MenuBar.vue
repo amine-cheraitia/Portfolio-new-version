@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="fixed top-0 w-full z-50 bg-black text-white flex justify-between items-center h-28 px-16"
+		class="fixed top-0 w-full z-50 bg-black text-white flex justify-between items-center h-24 px-16"
 	>
 		<div class="text-xl md:text-2xl lg:text-3xl font-Montserrat">
 			Amine Ch <span class="text-amber-500 text-xl">.</span>
