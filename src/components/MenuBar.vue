@@ -1,13 +1,13 @@
 <template>
 	<div
-		class="fixed top-0 w-full z-50 bg-black text-white flex justify-between items-center h-24 px-16"
+		class="fixed top-0 w-full z-50 bg-black text-white flex justify-between items-center h-16 lg:h-24 px-16"
 	>
-		<div class="text-xl md:text-2xl lg:text-3xl font-Montserrat">
+		<div class="text-sm sm:text-md md:text-2xl lg:text-3xl font-Montserrat">
 			Amine Ch <span class="text-amber-500 text-xl">.</span>
 		</div>
 		<div class="w-3/4 h-full flex justify-center items-center">
 			<ul
-				class="flex justify-around items-center h-full w-full text-center font-Poppins text-xl md:text-xl lg:text-2xl"
+				class="flex justify-around items-center h-full w-full text-center font-Poppins text-sm sm:text-md md:text-xl lg:text-2xl"
 			>
 				<li
 					class="border-b-4 border-b-black hover:bg-gradient-to-r hover:from-black hover:via-stone-900 hover:to-black hover:text-amber-500 h-full w-1/3 flex justify-center items-center"
