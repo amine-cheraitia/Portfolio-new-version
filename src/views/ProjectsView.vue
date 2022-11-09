@@ -2,7 +2,7 @@
 	<MenuBar></MenuBar>
 
 	<div
-		class="bg-black h-[calc(100vh_-_96px)] lg:h-[calc(100vh_-_96px)] w-full mt-16 lg:mt-24"
+		class="bg-black h-[calc(100vh_-_64px)] lg:h-[calc(100vh_-_96px)] w-full mt-16 lg:mt-24"
 	>
 		<swiper
 			:navigation="true"
