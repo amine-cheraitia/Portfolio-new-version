@@ -163,9 +163,11 @@
 			> -->
 		</swiper>
 	</div>
+	<ModalView v-if="showModal" />
 </template>
 
 <script>
+import ModalView from "@/components/ModalView";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Import Swiper styles
@@ -175,13 +177,14 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import MenuBar from "@/components/MenuBar.vue";
 export default {
-	components: { MenuBar, Swiper, SwiperSlide },
+	components: { MenuBar, Swiper, SwiperSlide, ModalView },
 	methods: {
 		hi() {},
 	},
 	data() {
 		return {
 			modules: [Navigation],
+			showModal: false,
 		};
 	},
 };
