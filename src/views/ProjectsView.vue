@@ -16,6 +16,7 @@
 				<div
 					id="container "
 					class="h-full w-full lg:w-10/12 bg-gray-800 flex border-2 border-amber-600 overflow-hidden cursor-pointer group"
+					@click="showDetail"
 				>
 					<div
 						id="imgProject"
@@ -163,7 +164,7 @@
 			> -->
 		</swiper>
 	</div>
-	<ModalView v-if="showModal" />
+	<ModalView v-if="showModal" v-on:closeIt="closeModal" />
 </template>
 
 <script>
@@ -180,6 +181,12 @@ export default {
 	components: { MenuBar, Swiper, SwiperSlide, ModalView },
 	methods: {
 		hi() {},
+		showDetail() {
+			this.showModal = true;
+		},
+		closeModal() {
+			this.showModal = false;
+		},
 	},
 	data() {
 		return {
