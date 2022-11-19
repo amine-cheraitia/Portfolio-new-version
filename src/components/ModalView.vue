@@ -1,12 +1,30 @@
 <template>
-	<div
-		class="absolute top-0 left-0 h-screen w-full z-50 backdrop-blur flex justify-center overflow-hidden"
-		@click.self="closeModal"
-		@click="hiz"
+	<transition
+		enter-from-class="opacity-0"
+		leave-to-class="opacity-0"
+		enter-active-class="transition duration-300"
+		leave-active-class="transition duration-300"
 	>
 		<div
-			class="bg-black w-11/12 lg:w-10/12 border-amber-500 border-2 rounded-xl overflow-hidden mt-20"
+			class="fixed top-0 left-0 h-screen w-full z-50 backdrop-blur"
+			@click.self="closeModal"
+			@click="hiz"
+			v-if="openModal"
+		></div>
+	</transition>
+	<transition
+		appear=""
+		enter-active-class="duration-300 ease-out transition-all"
+		enter-from-class="transform opacity-0 top-full translate-y-full"
+		enter-to-class="opacity-100"
+		leave-active-class="duration-300 ease-in transition-all"
+		leave-from-class="opacity-100"
+		leave-to-class="transform opacity-0 top-full translate-y-full"
+	>
+		<div
+			class="bg-black w-11/12 lg:w-10/12 border-amber-500 border-2 rounded-xl overflow-hidden fixed top-3/4 left-2/4 -translate-x-2/4 -translate-y-3/4 h-[calc(100%_-_10%)]"
 			style="z-index: 55"
+			v-if="openModal"
 		>
 			<div id="description" class="text-white p-6">
 				<div id="header" class="flex justify-between items-center">
@@ -56,12 +74,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</transition>
 </template>
 
 <script>
 export default {
-	props: {},
+	props: ["openModal"],
 	emits: ["closeIt"],
 	methods: {
 		closeModal() {
@@ -74,5 +92,3 @@ export default {
 	},
 };
 </script>
-
-<style scoped></style>

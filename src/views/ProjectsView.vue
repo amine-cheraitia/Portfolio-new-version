@@ -164,7 +164,7 @@
 			> -->
 		</swiper>
 	</div>
-	<ModalView v-if="showModal" v-on:closeIt="closeModal" />
+	<ModalView v-on:closeIt="closeModal" :openModal="openModal" />
 </template>
 
 <script>
@@ -183,8 +183,10 @@ export default {
 		hi() {},
 		showDetail() {
 			this.showModal = true;
+			this.openModal = true;
 		},
 		closeModal() {
+			this.openModal = false;
 			this.showModal = false;
 		},
 	},
@@ -192,6 +194,7 @@ export default {
 		return {
 			modules: [Navigation],
 			showModal: false,
+			openModal: false,
 		};
 	},
 };
