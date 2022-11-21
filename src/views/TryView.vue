@@ -10,46 +10,58 @@
 			class="mySwiper text-center h-full text-white"
 		>
 			<swiper-slide
-				class="flex justify-center items-center bg-red-300 h-full w-full"
 				@click="hi"
+				class="flex justify-center items-center bg-black h-full w-full"
+				v-for="(project, index) in projects"
+				:key="index"
 			>
 				<div
 					id="container "
-					class="h-full w-full lg:w-10/12 bg-gray-800 flex border-2 border-amber-600 overflow-hidden cursor-pointer"
+					class="h-full w-full lg:w-10/12 bg-gray-800 flex border-2 border-amber-600 overflow-hidden cursor-pointer group"
+					@click="showDetail"
 				>
 					<div
 						id="imgProject"
 						class="w-10/12 lg:w-11/12 bg-black-700 min-h-full overflow-hidden"
 					>
 						<img
-							src="https://new.dev-web.paris/api/projects/14-small.jpg"
+							:src="project.img"
 							class="min-w-full object-contain lg:object-fill"
 							alt=""
 						/>
 					</div>
 					<div
 						id="title"
-						class="w-2/12 lg:w-1/12 h-full bg-black flex flex-col items-center justify-between p-9 font-Poppins"
+						class="w-2/12 lg:w-1/12 h-full bg-black flex flex-col items-center justify-between p-9 font-Poppins relative"
 					>
 						<div class="flex flex-col justify-center items-center text-xl">
-							<div class="mb-1">1</div>
-							<div class="h-0.5 w-5 bg-amber-500"></div>
+							<div class="mb-1 group-hover:animate-pulse">{{ project.id }}</div>
+							<div
+								class="h-0.5 w-5 bg-amber-500 transition-all duration-700 group-hover:w-9 group-hover:translate-x-2"
+							></div>
 						</div>
-						<div class="w-96 -rotate-90">
-							<div class="text-right">
-								Gestion Cabinet Meddahi
+						<div class="w-56 -rotate-90 absolute bottom-1/4">
+							<div class="text-left">
+								{{ project.title }}
 								<span class="text-amber-500 text-xl">.</span>
 							</div>
-							<div class="text-amber-500 text-xl">2021</div>
+							<div class="text-amber-500 text-xl text-left">
+								{{ project.year }}
+							</div>
 						</div>
 					</div>
 				</div>
 			</swiper-slide>
 		</swiper>
 	</div>
+	<ModalView v-on:closeIt="closeModal" :openModal="openModal"
+	title:dataProps.title description:dataProps.description img:dataProps.img
+	tag:dataProps.tag year:dataProps.year github: dataProps.github link:
+	dataProps.link />
 </template>
 
 <script>
+import ModalView from "@/components/ModalView";
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Import Swiper styles
@@ -59,13 +71,83 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import MenuBar from "@/components/MenuBar.vue";
 export default {
-	components: { MenuBar, Swiper, SwiperSlide },
+	components: { MenuBar, Swiper, SwiperSlide, ModalView },
 	methods: {
 		hi() {},
+		showDetail() {
+			this.showModal = true;
+			this.openModal = true;
+		},
+		closeModal() {
+			this.openModal = false;
+			this.showModal = false;
+		},
 	},
 	data() {
 		return {
 			modules: [Navigation],
+			showModal: false,
+			openModal: false,
+			dataProps: {
+				id: null,
+				img: null,
+				title: null,
+				year: null,
+				description: null,
+				tag: null,
+				github: null,
+				link: null,
+			},
+			projects: [
+				{
+					id: 1,
+
+					img: require("../assets/gestioncac.png"),
+					title: "Gestion Cabinet Meddahi",
+					year: 2021,
+					description:
+						"mini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+					tag: ["php", "css", "delphi"],
+					github: null,
+					link: null,
+				},
+				{
+					id: 2,
+					img: require("../assets/weatherapp.png"),
+
+					title: "WeatherApp",
+					year: 2020,
+					description:
+						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+					tag: ["vuejs", "css", "delphi"],
+					github: null,
+					link: null,
+				},
+				{
+					id: 3,
+					img: require("../assets/weatherapp.png"),
+
+					title: "WeatherApp",
+					year: 2020,
+					description:
+						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+					tag: ["vuejs", "css", "delphi"],
+					github: null,
+					link: null,
+				},
+				{
+					id: 4,
+					img: require("../assets/weatherapp.png"),
+
+					title: "WeatherApp",
+					year: 2020,
+					description:
+						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+					tag: ["vuejs", "css", "delphi"],
+					github: null,
+					link: null,
+				},
+			],
 		};
 	},
 };
