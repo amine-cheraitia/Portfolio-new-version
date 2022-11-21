@@ -79,7 +79,16 @@
 
 <script>
 export default {
-	props: ["openModal"],
+	props: [
+		"openModal",
+		"title",
+		"year",
+		"description",
+		"tag",
+		"img",
+		"github",
+		"link",
+	],
 	emits: ["closeIt"],
 	methods: {
 		closeModal() {
