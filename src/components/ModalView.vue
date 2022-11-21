@@ -2,8 +2,8 @@
 	<transition
 		enter-from-class="opacity-0"
 		leave-to-class="opacity-0"
-		enter-active-class="transition duration-300"
-		leave-active-class="transition duration-300"
+		enter-active-class="transition duration-500"
+		leave-active-class="transition duration-500"
 	>
 		<div
 			class="fixed top-0 left-0 h-screen w-full z-50 backdrop-blur"
@@ -15,11 +15,11 @@
 	<transition
 		appear=""
 		enter-active-class="duration-300 ease-out transition-all"
-		enter-from-class="transform opacity-0 top-full translate-y-full"
-		enter-to-class="opacity-100"
+		enter-from-class="transform opacity-0 top-[200%] translate-y-full"
+		enter-to-class="opacity-500"
 		leave-active-class="duration-300 ease-in transition-all"
-		leave-from-class="opacity-100"
-		leave-to-class="transform opacity-0 top-full translate-y-full"
+		leave-from-class="opacity-500"
+		leave-to-class="transform opacity-0 top-[200%] translate-y-full"
 	>
 		<div
 			class="bg-black w-11/12 lg:w-10/12 border-amber-500 border-2 rounded-xl overflow-hidden fixed top-3/4 left-2/4 -translate-x-2/4 -translate-y-3/4 h-[calc(100%_-_10%)]"
