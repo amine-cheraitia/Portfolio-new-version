@@ -50,7 +50,15 @@
 					{{ description }}
 				</div>
 				<div class="flex flex-wrap gap-2 my-4">
-					<div class="bg-amber-500 text-white rounded-3xl px-2 py-0.5 text-sm">
+					<div
+						v-for="(t, index) in tag"
+						:key="index"
+						class="bg-amber-500 text-white rounded-3xl px-2 py-0.5 text-sm"
+					>
+						{{ t }}
+					</div>
+
+					<!-- 					<div class="bg-amber-500 text-white rounded-3xl px-2 py-0.5 text-sm">
 						Php
 					</div>
 					<div class="bg-amber-500 text-white rounded-3xl px-2 py-0.5 text-sm">
@@ -64,7 +72,7 @@
 					</div>
 					<div class="bg-amber-500 text-white rounded-3xl px-2 py-0.5 text-sm">
 						Javascript
-					</div>
+					</div> -->
 				</div>
 				<div id="img" class="h-64">
 					<img :src="img" alt="" />

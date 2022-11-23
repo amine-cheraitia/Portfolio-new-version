@@ -91,7 +91,7 @@ export default {
 			this.dataProps.tag = projectSelected.tag;
 			this.dataProps.github = projectSelected.github;
 			this.dataProps.link = projectSelected.link;
-			console.log(this.dataProps.title);
+			console.log(this.dataProps.tag);
 
 			this.showModal = true;
 			this.openModal = true;
