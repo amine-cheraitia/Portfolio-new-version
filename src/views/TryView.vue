@@ -17,7 +17,7 @@
 				<div
 					id="container "
 					class="h-full w-full lg:w-10/12 bg-gray-800 flex border-2 border-amber-600 overflow-hidden cursor-pointer group"
-					@click="showDetail"
+					@click="showDetail(project.id)"
 				>
 					<div
 						id="imgProject"
@@ -53,10 +53,17 @@
 			</swiper-slide>
 		</swiper>
 	</div>
-	<ModalView v-on:closeIt="closeModal" :openModal="openModal"
-	title:dataProps.title description:dataProps.description img:dataProps.img
-	tag:dataProps.tag year:dataProps.year github: dataProps.github link:
-	dataProps.link />
+	<ModalView
+		v-on:closeIt="closeModal"
+		:openModal="openModal"
+		:title="dataProps.title"
+		:img="dataProps.img"
+		:year="dataProps.year"
+		:description="dataProps.description"
+		:tag="dataProps.tag"
+		:github="dataProps.github"
+		:link="dataProps.link"
+	/>
 </template>
 
 <script>
@@ -73,7 +80,19 @@ export default {
 	components: { MenuBar, Swiper, SwiperSlide, ModalView },
 	methods: {
 		hi() {},
-		showDetail() {
+		showDetail(id) {
+			id;
+			const projects = [...this.projects];
+			const projectSelected = projects.find((p) => p.id === id);
+			this.dataProps.title = projectSelected.title;
+			this.dataProps.img = projectSelected.img;
+			this.dataProps.year = projectSelected.year;
+			this.dataProps.description = projectSelected.description;
+			this.dataProps.tag = projectSelected.tag;
+			this.dataProps.github = projectSelected.github;
+			this.dataProps.link = projectSelected.link;
+			console.log(this.dataProps.title);
+
 			this.showModal = true;
 			this.openModal = true;
 		},

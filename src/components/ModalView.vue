@@ -2,8 +2,8 @@
 	<transition
 		enter-from-class="opacity-0"
 		leave-to-class="opacity-0"
-		enter-active-class="transition duration-500"
-		leave-active-class="transition duration-500"
+		enter-active-class="transition duration-300"
+		leave-active-class="transition duration-300"
 	>
 		<div
 			class="fixed top-0 left-0 h-screen w-full z-50 backdrop-blur"
@@ -15,11 +15,11 @@
 	<transition
 		appear=""
 		enter-active-class="duration-300 ease-out transition-all"
-		enter-from-class="transform opacity-0 top-[200%] translate-y-full"
-		enter-to-class="opacity-500"
+		enter-from-class="transform opacity-0 top-full translate-y-full"
+		enter-to-class="opacity-100"
 		leave-active-class="duration-300 ease-in transition-all"
-		leave-from-class="opacity-500"
-		leave-to-class="transform opacity-0 top-[200%] translate-y-full"
+		leave-from-class="opacity-100"
+		leave-to-class="transform opacity-0 top-full translate-y-full"
 	>
 		<div
 			class="bg-black w-11/12 lg:w-10/12 border-amber-500 border-2 rounded-xl overflow-hidden fixed top-3/4 left-2/4 -translate-x-2/4 -translate-y-3/4 h-[calc(100%_-_10%)]"
@@ -29,7 +29,7 @@
 			<div id="description" class="text-white p-6">
 				<div id="header" class="flex justify-between items-center">
 					<div class="text-xl font-Poppins">
-						Gestion Cabinet Meddahi App
+						{{ title }}
 						<span class="text-amber-500 text-2xl">.</span>
 					</div>
 
@@ -37,7 +37,7 @@
 						<i class="fa-solid fa-x text-amber-500 text-2xl"></i>
 					</button>
 				</div>
-				<div class="text-amber-500 text-xl">2021</div>
+				<div class="text-amber-500 text-xl">{{ year }}</div>
 				<div class="my-2">
 					<i
 						class="fa-brands fa-github text-2xl transition duration-300 ease-in-out mr-4 hover:scale-125 hover:text-amber-100"
@@ -47,10 +47,7 @@
 					></i>
 				</div>
 				<div class="my-2">
-					mini description: Lorem ipsum dolor sit amet consectetur, adipisicing
-					elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis
-					suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis
-					beatae! Soluta, officiis eveniet.
+					{{ description }}
 				</div>
 				<div class="flex flex-wrap gap-2 my-4">
 					<div class="bg-amber-500 text-white rounded-3xl px-2 py-0.5 text-sm">
@@ -70,7 +67,7 @@
 					</div>
 				</div>
 				<div id="img" class="h-64">
-					<img src="../assets/gestioncac.png" alt="" />
+					<img :src="img" alt="" />
 				</div>
 			</div>
 		</div>
@@ -82,13 +79,16 @@ export default {
 	props: [
 		"openModal",
 		"title",
+		"img",
+		"tag",
 		"year",
 		"description",
-		"tag",
-		"img",
 		"github",
 		"link",
 	],
+	data() {
+		return {};
+	},
 	emits: ["closeIt"],
 	methods: {
 		closeModal() {
