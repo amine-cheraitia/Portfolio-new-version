@@ -10,7 +10,6 @@
 			class="mySwiper text-center h-full text-white"
 		>
 			<swiper-slide
-				@click="hi"
 				class="flex justify-center items-center bg-black h-full w-full"
 				v-for="(project, index) in projects"
 				:key="index"
