@@ -12,15 +12,15 @@
 			v-if="openModal"
 		></div>
 	</transition>
-	<transition
-		appear=""
-		enter-active-class="duration-300 ease-out transition-all"
+	<!-- 	<transition appear="" enter-active-class="duration-300 ease-out transition-all"
 		enter-from-class="transform opacity-0 top-full translate-y-full"
 		enter-to-class="opacity-100"
 		leave-active-class="duration-300 ease-in transition-all"
 		leave-from-class="opacity-100"
-		leave-to-class="transform opacity-0 top-full translate-y-full"
-	>
+		leave-to-class="transform opacity-0 top-full translate-y-full">
+	
+	</transition> -->
+	<transition name="dialog" appear="">
 		<div
 			class="bg-black w-11/12 lg:w-10/12 border-amber-500 border-2 rounded-xl overflow-hidden fixed top-3/4 left-2/4 -translate-x-2/4 -translate-y-3/4 h-[calc(100%_-_10%)]"
 			style="z-index: 55"
@@ -109,3 +109,24 @@ export default {
 	},
 };
 </script>
+
+<style>
+.dialog-enter-from,
+.dialog-leave-to {
+	transform: translate(-50%, -50%);
+	top: 100%;
+	opacity: 0;
+	left: 50%;
+}
+.dialog-enter-active {
+	transition: all 300ms ease-out;
+}
+.dialog-leave-active {
+	transition: all 300ms ease-out;
+}
+.dialog-enter-to,
+.dialog-leave-from {
+	opacity: 1;
+	top: 75%;
+}
+</style>
