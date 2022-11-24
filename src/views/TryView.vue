@@ -125,7 +125,14 @@ export default {
 					year: 2021,
 					description:
 						"mini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: ["php", "css", "delphi"],
+					tag: [
+						"Laravel",
+						"MariaDB",
+						"JQuery",
+						"ChartJs",
+						"Javascript",
+						"Bootstrap",
+					],
 					github: null,
 					link: null,
 				},
@@ -134,10 +141,10 @@ export default {
 					img: require("../assets/weatherapp.png"),
 
 					title: "WeatherApp",
-					year: 2020,
+					year: 2022,
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: ["vuejs", "css", "delphi"],
+					tag: ["HTML", "CSS", "VueJS", "OpenWeatherApi"],
 					github: null,
 					link: null,
 				},
@@ -145,11 +152,11 @@ export default {
 					id: 3,
 					img: require("../assets/weatherapp.png"),
 
-					title: "WeatherApp",
-					year: 2020,
+					title: "Expense Tracker",
+					year: 2022,
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: ["vuejs", "css", "delphi"],
+					tag: ["Laravel", "MySQL", "VueJS"],
 					github: null,
 					link: null,
 				},
@@ -157,11 +164,23 @@ export default {
 					id: 4,
 					img: require("../assets/weatherapp.png"),
 
-					title: "WeatherApp",
+					title: "To Do List",
 					year: 2020,
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: ["vuejs", "css", "delphi"],
+					tag: ["VueJS", "Boostrap"],
+					github: null,
+					link: null,
+				},
+				{
+					id: 5,
+					img: require("../assets/weatherapp.png"),
+
+					title: "Portfolio",
+					year: 2022,
+					description:
+						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+					tag: ["VueJS", "Tailwind"],
 					github: null,
 					link: null,
 				},
