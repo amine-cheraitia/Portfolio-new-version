@@ -150,13 +150,13 @@ export default {
 				},
 				{
 					id: 3,
-					img: require("../assets/weatherapp.png"),
+					img: require("../assets/Expensetracker.png"),
 
 					title: "Expense Tracker",
 					year: 2022,
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: ["Laravel", "MySQL", "VueJS"],
+					tag: ["Laravel", "MySQL", "VueJS", "ChartJS"],
 					github: null,
 					link: null,
 				},
