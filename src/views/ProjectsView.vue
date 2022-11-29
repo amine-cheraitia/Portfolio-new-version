@@ -125,14 +125,7 @@ export default {
 					year: 2021,
 					description:
 						"mini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: [
-						"Laravel",
-						"MariaDB",
-						"JQuery",
-						"ChartJs",
-						"Javascript",
-						"Bootstrap",
-					],
+					tag: ["Laravel", "MariaDB", "JQuery", "ChartJs", "Bootstrap"],
 					github: null,
 					link: null,
 				},
@@ -169,18 +162,6 @@ export default {
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
 					tag: ["VueJS", "Boostrap"],
-					github: null,
-					link: null,
-				},
-				{
-					id: 5,
-					img: require("../assets/weatherapp.png"),
-
-					title: "Portfolio",
-					year: 2022,
-					description:
-						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
-					tag: ["VueJS", "Tailwind"],
 					github: null,
 					link: null,
 				},
