@@ -127,7 +127,7 @@ export default {
 						"mini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
 					tag: ["Laravel", "MariaDB", "JQuery", "ChartJs", "Bootstrap"],
 					github: null,
-					link: null,
+					link: "https://website.fahdfettahi.com/",
 				},
 				{
 					id: 2,
