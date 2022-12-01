@@ -39,9 +39,11 @@
 				</div>
 				<div class="text-amber-500 text-xl">{{ year }}</div>
 				<div class="my-2">
-					<i
-						class="fa-brands fa-github text-2xl transition duration-300 ease-in-out mr-4 hover:scale-125 hover:text-amber-100"
-					></i>
+					<a :href="github" target="_blank">
+						<i
+							class="fa-brands fa-github text-2xl transition duration-300 ease-in-out mr-4 hover:scale-125 hover:text-amber-100"
+						></i
+					></a>
 					<a :href="link" target="_blank">
 						<i
 							class="fa-solid fa-globe text-2xl transition duration-300 ease-in-out hover:scale-125 hover:text-amber-100"

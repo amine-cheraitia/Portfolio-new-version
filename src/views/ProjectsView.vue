@@ -126,7 +126,8 @@ export default {
 					description:
 						"mini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
 					tag: ["Laravel", "MariaDB", "JQuery", "ChartJs", "Bootstrap"],
-					github: null,
+					github:
+						"https://github.com/amine-cheraitia/gestion-cabinet-cac-et-cmptaV2",
 					link: "https://website.fahdfettahi.com/",
 				},
 				{
