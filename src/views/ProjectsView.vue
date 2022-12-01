@@ -139,8 +139,8 @@ export default {
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
 					tag: ["HTML", "CSS", "VueJS", "OpenWeatherApi"],
-					github: null,
-					link: null,
+					github: "https://github.com/amine-cheraitia/weather-app-vuejs-v2",
+					link: "https://amine-cheraitia.github.io/weather-app-vuejs-v2/",
 				},
 				{
 					id: 3,
