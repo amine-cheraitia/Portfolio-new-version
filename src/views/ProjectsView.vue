@@ -153,7 +153,7 @@ export default {
 					tag: ["HTML", "CSS", "Laravel", "MySQL", "VueJS", "ChartJS"],
 					github:
 						"https://github.com/amine-cheraitia/expense-tracker-client-vuejs",
-					link: null,
+					link: "https://amine-cheraitia.github.io/expense-tracker-client-vuejs/",
 				},
 				{
 					id: 4,
@@ -164,7 +164,7 @@ export default {
 					description:
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
 					tag: ["VueJS", "Boostrap"],
-					github: "null",
+					github: "https://github.com/amine-cheraitia/ToDo-VueJS",
 					link: null,
 				},
 			],
