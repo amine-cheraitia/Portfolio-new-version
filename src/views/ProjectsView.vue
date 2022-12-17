@@ -165,7 +165,7 @@ export default {
 						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
 					tag: ["VueJS", "Boostrap"],
 					github: "https://github.com/amine-cheraitia/ToDo-VueJS",
-					link: null,
+					link: "",
 				},
 			],
 		};
