@@ -153,7 +153,7 @@ export default {
 					tag: ["HTML", "CSS", "Laravel", "MySQL", "VueJS", "ChartJS"],
 					github:
 						"https://github.com/amine-cheraitia/expense-tracker-client-vuejs",
-					link: "https://amine-cheraitia.github.io/expense-tracker-client-vuejs/",
+					link: "https://amine-cheraitia.github.io/expense-tracker-client-vuejs",
 				},
 				{
 					id: 4,
