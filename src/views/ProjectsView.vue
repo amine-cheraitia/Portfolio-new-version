@@ -124,7 +124,7 @@ export default {
 					title: "Gestion Cabinet Meddahi",
 					year: 2021,
 					description:
-						"mini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+						"Une application pour la gestion d'un cabinet de comptabilité et commissariat aux comptes qui se compose de plusieurs modules pour la gestion des clients, la gestion des missions , le planning des tâches, la gestion de facturation et des paiements...etc.",
 					tag: ["Laravel", "MariaDB", "JQuery", "ChartJs", "Bootstrap"],
 					github:
 						"https://github.com/amine-cheraitia/gestion-cabinet-cac-et-cmptaV2",
@@ -137,7 +137,7 @@ export default {
 					title: "WeatherApp",
 					year: 2022,
 					description:
-						" weathermini description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maiores harum? Totam minus eos aperiam molestias officiis suscipit iusto ipsum quaerat vitae, libero debitis voluptatibus omnis beatae! Soluta, officiis eveniet.",
+						"Une simple application qui permet d'avoir la méteo actuel.",
 					tag: ["HTML", "CSS", "VueJS", "OpenWeatherApi"],
 					github: "https://github.com/amine-cheraitia/weather-app-vuejs-v2",
 					link: "https://amine-cheraitia.github.io/weather-app-vuejs-v2/",
@@ -162,7 +162,7 @@ export default {
 					title: "To Do List",
 					year: 2020,
 					description:
-						"Une simple app de 'to do list' qui charge et sauvegarde les données via LocalStorage.",
+						"Une simple application de 'to do list' qui charge et sauvegarde les données via LocalStorage.",
 					tag: ["VueJS", "Boostrap"],
 					github: "https://github.com/amine-cheraitia/ToDo-VueJS",
 					link: "https://amine-cheraitia.github.io/ToDo-VueJS",
