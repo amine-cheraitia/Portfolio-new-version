@@ -163,7 +163,7 @@ export default {
 					year: 2020,
 					description:
 						"Une simple application de 'to do list' qui charge et sauvegarde les données via LocalStorage.",
-					tag: ["VueJS", "Boostrap"],
+					tag: ["VueJS", "Bootstrap"],
 					github: "https://github.com/amine-cheraitia/ToDo-VueJS",
 					link: "https://amine-cheraitia.github.io/ToDo-VueJS",
 				},
