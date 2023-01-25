@@ -76,7 +76,6 @@ import "swiper/css/navigation";
 import MenuBar from "@/components/MenuBar";
 import { Navigation } from "swiper";
 
-import MenuBar from "@/components/MenuBar.vue";
 export default {
 	components: { Swiper, SwiperSlide, ModalView, MenuBar },
 
