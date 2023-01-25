@@ -1,4 +1,5 @@
 <template>
+	<MenuBar></MenuBar>
 	<div>
 		<div
 			class="bg-black h-[calc(100vh_-_64px)] lg:h-[calc(100vh_-_96px)] w-full mt-16 lg:mt-24 overflow-hidden"
@@ -75,11 +76,11 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
+import MenuBar from "@/components/MenuBar";
 import { Navigation } from "swiper";
 
 export default {
-	components: { Swiper, SwiperSlide, ModalView },
+	components: { Swiper, SwiperSlide, ModalView, MenuBar },
 	methods: {
 		hi() {},
 		showDetail(id) {
