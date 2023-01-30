@@ -40,7 +40,7 @@
 				</h1>
 				<router-link
 					to="about"
-					class="bg-transparent bg-white/5 hover:font-bold backdrop-blur-sm text-white border-4 px-4 py-1 m-4 lg:m-6 inline-block text-center shadow-lg rounded-full cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
+					class="bg-white/5 hover:font-bold backdrop-blur-sm text-white border-4 px-4 py-1 m-4 lg:m-6 inline-block text-center shadow-lg rounded-full cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
 					>Let's Go !</router-link
 				>
 			</div>
