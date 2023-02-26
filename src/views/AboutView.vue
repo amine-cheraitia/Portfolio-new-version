@@ -19,19 +19,28 @@
 					alt=""
 				/>
 				<div id="text" class="text-center lg:text-left">
-					<p class="text-3xl mt-8">Amine CHERAITIA</p>
+					<p class="text-4xl mt-8">Amine CHERAITIA</p>
 					<p class="text-lg text-amber-600 font-Poppins">Algiers , ALGERIA</p>
 					<p class="text-base text-left mt-8 lg:pr-8">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non
-						blanditiis quaerat? Officia, quod est quas quaerat sequi a nobis
-						quia temporibus tempore libero numquam atque, odio minus officiis
-						iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
-						quae odit debitis, ab consequatur placeat ad aliquid quidem id,
-						sequi quos officiis hic vero corrupti harum natus nisi quibusdam qui
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-						molestiae! Autem libero consequatur, vero quidem blanditiis non quos
-						assumenda eum dolorum ex ipsam! Debitis id nisi doloribus dolorum
-						iure sed?.
+						Passionné par l'informatique et le programmation depuis tout jeune,
+						j'ai décidé d'en faire mon métier. De nature curieuse, le monde de
+						l'informatique me permet de m'épanouir et d'être continuellement
+						dans une phase d'apprentissage. Passionné et investi sont les deux
+						adjectifs qui me représentent le mieux. Je serait faire preuve de
+						dynamisme et d'intérêt pour les projets que je devrais réaliser et
+						mener à terme.<br />
+						Je vous invite à me contacté via mon
+						<a
+							href="https://www.linkedin.com/in/mohamed-amine-c-97448bba/"
+							target="_blank"
+							class="font-bold"
+							>Linkedin
+							<i
+								class="fa-brands fa-linkedin text-xl"
+								style="color: #0e76a8"
+							></i
+						></a>
+						pour tout projet que vous voulez réaliser.
 					</p>
 				</div>
 			</div>
