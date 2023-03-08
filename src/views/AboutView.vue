@@ -10,7 +10,7 @@
 					style="width: 300%; height: 300%"
 				></div>
 				<div
-					class="-z-5 rotate-12 -translate-x-1/2 translate-y-full absolute -bottom-40 lg:-bottom-7 left-1/2 bg-black"
+					class="-z-5 rotate-12 -translate-x-1/2 translate-y-full absolute -bottom-72 md:-bottom-52 lg:-bottom-7 left-1/2 bg-black"
 					style="width: 300%; height: 100%"
 				></div>
 				<img
