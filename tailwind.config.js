@@ -6,6 +6,7 @@ module.exports = {
 		extend: {
 			backgroundColor: {
 				"back-rgba": "rgba(0,0,0,0.5)",
+				"orange-bg": "#55482a",
 			},
 			fontFamily: {
 				Montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans],
