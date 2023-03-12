@@ -1,5 +1,17 @@
 <template>
-	<div class="p0 bg-red h-full">
+	<div class="p0 bg-red h-full relative">
+		<!-- 		<div
+			id="sl"
+			class="absolute -top-full left-0 h-screen w-full bg-red-500 z-50"
+		></div> -->
+		<div
+			id="sl"
+			class="fixed -top-[calc(130vh_+_96px)] left-0 h-[calc(130vh_+_96px)] w-full bg-black"
+		></div>
+		<div
+			id="sl2"
+			class="fixed -top-[calc(130vh_+_96px)] left-0 h-[calc(130vh_+_96px)] w-full bg-orange-bg"
+		></div>
 		<router-view />
 	</div>
 </template>
