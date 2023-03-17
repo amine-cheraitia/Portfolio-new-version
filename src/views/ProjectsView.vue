@@ -133,7 +133,7 @@ export default {
 					tag: ["Laravel", "MariaDB", "JQuery", "ChartJs", "Bootstrap"],
 					github:
 						"https://github.com/amine-cheraitia/gestion-cabinet-cac-et-cmptaV2",
-					link: "https://gestioncac.mooo.com/",
+					link: "https://gestioncac.fahdfettahi.com/",
 				},
 				{
 					id: 2,
