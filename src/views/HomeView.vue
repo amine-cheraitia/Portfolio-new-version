@@ -36,12 +36,12 @@
 				class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col"
 			>
 				<h1 class="text-7xl font-Montserrat drop-shadow-xl" style="color: #fff">
-					Welcome
+					Bienvenue
 				</h1>
 				<router-link
 					to="about"
 					class="bg-white/5 hover:font-bold backdrop-blur-sm text-white border-4 px-4 py-1 m-4 lg:m-6 inline-block text-center shadow-lg rounded-full cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
-					>Let's Go !</router-link
+					>Cliquez Ici !</router-link
 				>
 			</div>
 			<!-- 			<h1 class="text-7xl top-1/2 left-" style="color: #55482a">Welcome</h1> -->
