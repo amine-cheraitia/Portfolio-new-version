@@ -445,26 +445,25 @@ export default {
 					tools: [
 						{
 							name: "Manager la maîtrise d'ouvrage d'un projet SI (MOA)",
-							class:
-								"fa-solid fa-diagram-predecessor text-5xl w-10 text-red-500",
+							class: "fa-solid fa-share-nodes text-5xl w-10 text-red-500",
 						},
 						{
 							name: "Ingénierie de la maîtrise d'oeuvre d'un projet informatique",
-							class: "fa-brands fa-css3-alt text-5xl w-10 text-orange-500 ",
+							class: "fa-solid fa-swatchbook text-5xl w-10 text-cyan-500 ",
 						},
 
 						{
 							name: "Gestion du système d'information (GSI)",
-							class: "fa-brands fa-js text-5xl w-10 text-yellow-500",
+							class: "fa-solid fa-layer-group text-5xl w-10 text-yellow-500",
 						},
 
 						{
 							name: "Développement d’applications (desktop, web, mobile, service web ou objet connecté) ",
-							class: "fa-brands fa-laravel text-5xl w-10 text-red-500",
+							class: "fa-solid fa-code text-5xl w-10 text-fuchsia-500",
 						},
 						{
 							name: "Manager un projet de big data",
-							class: "fa-solid fa-warehouse text-5xl w-10 text-gray-500",
+							class: "fa-solid fa-warehouse text-5xl w-10 text-white-500",
 						},
 					],
 				},
