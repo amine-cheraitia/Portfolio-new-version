@@ -389,7 +389,7 @@ export default {
 				{
 					eventYear: 2022,
 					eventName: "Développeur Web Freelance",
-					eventFullDate: "2022 - à ce jour",
+					eventFullDate: "2022 - 2023",
 					eventDescription: [
 						{
 							desc: "Conception et développement de divers applications web",
