@@ -47,7 +47,7 @@
 			<!-- 			<h1 class="text-7xl top-1/2 left-" style="color: #55482a">Welcome</h1> -->
 		</div>
 		<div class="fixed bottom-5 text-white w-full flex justify-between px-7">
-			<span class="text-sm">© AMINE CHERAITIA 2021-2023</span>
+			<span class="text-sm">© AMINE CHERAITIA 2021-2024</span>
 			<a href="https://github.com/amine-cheraitia"
 				><i class="fa-brands fa-github"></i> Github</a
 			>
