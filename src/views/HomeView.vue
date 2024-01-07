@@ -50,7 +50,7 @@
 			<span class="text-sm">© AMINE CHERAITIA 2021-2024</span>
 			<a
 				href="https://github.com/amine-cheraitia"
-				class="hover:scale-110 transition duration-300 ease-in-out hover:font-bold"
+				class="hover:scale-105 transition duration-300 ease-in-out hover:font-bold"
 				><i class="fa-brands fa-github"></i> Github</a
 			>
 		</div>
