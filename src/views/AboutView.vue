@@ -307,7 +307,7 @@ export default {
 					eventFullDate: "2020-2022",
 					eventDescription: [
 						{
-							desc: "ETM Ibn Rochd / L'institut d'ingénierie en informatique de Limoge (3il)",
+							desc: "ETM Ibn Rochd / L'institut d'ingénierie en informatique de Limoges (3il)",
 						},
 						{
 							desc: "Double Diplôme Bachelor Concepteur de systèmes d'information",
